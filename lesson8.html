@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 8</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;/* without border box. The outline is 10px and 100%,100%+10px. width 100% and outline of 10px, 100%;*/
+        }
+        header {
+            
+            display:flex;
+        }
+        #logo {
+            
+            width: 50%;
+            padding: 20px;
+        }
+        nav {
+            padding: 20px;
+        }
+        #heroimage {
+            width: 100%;
+            height: 30vh;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        img {
+            width: 100%;
+        }
+        #product {
+            display: flex;
+            height: 20vh;
+            overflow: hidden;
+            margin-top: 10px;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        .item {
+            margin-left: 10px;
+            width: 30%;
+        }
+        #itemright {
+            margin-right: 10px;
+        }
+        main {
+            padding: 10px;
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 10px;
+            padding: 10px;
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"><!-- this is the logo -->
+        <h1>Lesson 8</h1>
+        </div>
+        <nav><!-- navigation or menu -->
+            <h2>Menu</h2>
+        </nav>
+    </header>
+    
+    
+    <div id="heroimage">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1024px-FullMoon2010.jpg">
+    </div>
+    <div id="product">
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2006-07-07_katze_mit_angel.jpg/440px-2006-07-07_katze_mit_angel.jpg">
+        </div>
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cattoy.jpg/440px-Cattoy.jpg">
+        </div>
+        <div class="item" id="itemright">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Cat_and_ball.jpg/440px-Cat_and_ball.jpg">
+        </div>
+    </div>
+    <main>
+        <p>Review Homework</p>
+        <ol>
+            <li>Header</li>
+            <li>Nav</li>
+            <li>Main</li>
+            <li>Footer</li>
+        </ol>
+        <h2>Flex Box</h2>
+        <p>Flex box is a flexible container</p>
+    </main>
+
+    <footer>
+        <h3>Designed by hector, 2021</h3>
+    </footer>
+</body>
+</html>
